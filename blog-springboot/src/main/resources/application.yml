@@ -87,13 +87,13 @@ upload:
     # nginx映射本地文件路径，无域名则为 ip:83
     url: http://192.168.245.100:30379/
     # 本地文件存储路径
-    path: /root/zgy/project/blog/upload/
+    path: /root/zgy/data/blog/upload/
 
   local:
     # nginx映射本地文件路径，无域名则为 ip:83
     url: http://127.0.0.1:30379/
     # 本地文件存储路径
-    path: /root/zgy/project/blog/upload/
+    path: /root/zgy/data/blog/upload/
 #  oss:
 #    url: http://Bucket域名/
 #    endpoint: OSS配置endpoint
